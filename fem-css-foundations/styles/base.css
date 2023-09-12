@@ -22,7 +22,6 @@ a{
     grid-template-columns: 1fr 3fr 34px;
     grid-template-rows: 1fr;
     align-items: center;
-    grid-template-areas:"logo nav shopping-cart" ;
     padding: 0 60px;
 }
 .header__link {
@@ -30,14 +29,12 @@ a{
     font-weight: bold;
 }
 
-
 .nav{
     display: inline-block;
     justify-self: end;
 }
 .nav__list{
     display: flex;
-    
     list-style:none;
 }
 .nav__list-item{
