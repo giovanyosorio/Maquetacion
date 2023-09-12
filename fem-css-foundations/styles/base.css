@@ -16,3 +16,31 @@ a{
     color: var(--color-text-on-primary);
     text-decoration: none;
 }
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 3fr 34px;
+    grid-template-rows: 1fr;
+    align-items: center;
+    grid-template-areas:"logo nav shopping-cart" ;
+    padding: 0 60px;
+}
+.header__link {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.nav{
+    display: inline-block;
+    justify-self: end;
+}
+.nav__list{
+    display: flex;
+    
+    list-style:none;
+}
+.nav__list-item{
+    margin-inline-end: 16px;
+    font-size: 20px;
+}
