@@ -23,6 +23,24 @@ main{
 
     align-self: center;
 }
+.info-title{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+.info-subtitle{
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+    color: #333;
+
+}
 .book{
     cursor: pointer;
+    border: none;
+    color: #333;
+    background-color: #fb8c00;
+    border-radius: 20px;
+    padding: 12px 24px;
+    font-weight: bolder;
 }
