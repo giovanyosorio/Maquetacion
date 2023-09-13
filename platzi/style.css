@@ -89,7 +89,7 @@ main{
     margin-bottom: 50px;
 }
 .menu-grid-item{
-    background-color: rgba(255, 164, 131, 0.563);
+    background-color: rgb(0, 0, 0);
     padding:15px ;
     border-radius: 0 20px;
 }
