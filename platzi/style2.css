@@ -1,0 +1,4 @@
+.product-info div p:nth-child(1){
+    background-color: aqua;
+    width: 50px;
+}

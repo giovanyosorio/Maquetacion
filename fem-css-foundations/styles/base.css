@@ -3,6 +3,7 @@
     --color-primary:#ff7b54;
     --color-text-on-primary:#ffffff;
     --font-family: "Inter",sans-serif;
+    --color-button-border:var(var(--color-text-on-primary))
 }
 
 body{
@@ -10,6 +11,9 @@ body{
     color:var(--color-text-on-primary);
     font-family: var(--font-family);
     
+}
+p{
+   margin: 0; 
 }
 
 a{
